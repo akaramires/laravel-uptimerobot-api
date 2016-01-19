@@ -1,7 +1,8 @@
 {
-  "name": "akaramires/monitor",
+  "name": "akaramires/laravel-uptimerobot-api",
   "description": "Laravel UpTimeRobot is an UptimeRobot API client for Laravel 5.*",
   "keywords": [
+    "uptimerobot",
     "monitor",
     "api"
   ],
