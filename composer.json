@@ -1,0 +1,29 @@
+{
+  "name": "akaramires/monitor",
+  "description": "Laravel UpTimeRobot is an UptimeRobot API client for Laravel 5.*",
+  "keywords": [
+    "monitor",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "Elmar Abdurayimov",
+      "email": "e.abdurayimov@gmail.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "6.*",
+    "php": ">= 5.4"
+  },
+  "require-dev": {
+    "illuminate/support": "~5.0|~5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akaramires\\Monitors\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "dev"
+}
