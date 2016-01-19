@@ -1,3 +1,19 @@
-## Laravel 5 Website Uptime Monitoring
+## Laravel 5 UptimeRobot API
 
-* [`php artisan vendor:publish --provider="Akaramires\Monitors\MonitorsServiceProvider"`]
+## Installation
+
+Please check the system requirements before installing Laravel UptimeRobot API.
+
+To get the latest version of Laravel UptimeRobot API, simply require `"akaramires/laravel-uptimerobot": "*"` in your `composer.json` file.
+
+Open up `app/config/app.php` and add the following to the `providers` key.
+
+* `'Akaramires\Monitors\MonitorsServiceProvider::class'`
+
+## Configuration
+
+Laravel UptimeRobot API requires configuration.
+
+To get started, first publish the package config file:
+
+    php artisan vendor:publish --provider="Akaramires\Monitors\MonitorsServiceProvider"
