@@ -20,6 +20,6 @@
          */
         protected static function getFacadeAccessor()
         {
-            return 'monitors';
+            return 'uptimerobot';
         }
     }
