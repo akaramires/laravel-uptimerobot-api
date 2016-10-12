@@ -79,11 +79,15 @@
             return $this->__request($this->__getEndpoint(__FUNCTION__, $params));
         }
 
-        public function getAlertContacts($monitorID, $additionalParams = [])
+        public function getAlertContacts($monitorID=null, $additionalParams = [])
         {
-            $params = array_merge([
-                'monitorID' => $monitorID,
-            ], $additionalParams);
+            // Make this one optional
+            if($monitorID !== null)
+            {
+                $params = array_merge([
+                    'monitorID' => $monitorID,
+                ], $additionalParams);
+            }
 
             return $this->__request($this->__getEndpoint(__FUNCTION__, $params));
         }
